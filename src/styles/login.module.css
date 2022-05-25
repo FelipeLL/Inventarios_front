@@ -1,0 +1,89 @@
+/* Rojo: #F45753 
+   Negro: #1a1a1a
+   NegroV2: #2d2d2d
+   Border: #d4d4d4
+   Azul: #009cd1
+   Amarillo: #fa9e05
+*/
+.body {
+  background: -webkit-linear-gradient(top right, #fff5f5 10%, #fff0f0);
+}
+.form {
+  margin-top: 25px;
+}
+
+.input-box {
+  height: 52px;
+  margin: 10px 0;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #3b515b;
+  border: 1.5px solid #c7bebe;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  border-color: #f45753;
+}
+
+.button {
+  margin-top: 30px;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 8px;
+  background: #f45753;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #f23a36;
+}
+
+.text {
+  color: #f12c27;
+  width: 100%;
+}
+
+.text-a {
+  text-decoration: none;
+  color: #009cd1;
+}
+
+.text-a:hover {
+  text-decoration: underline;
+}
+
+.img-1 {
+  /*Propiedades de la imagen 1 del primer slider*/
+  background-image: url("../images/g1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2 {
+  /*Propiedades de la imagen 1 del primer slider*/
+  background-image: url("../images/g5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-3 {
+  /*Propiedades de la imagen 1 del primer slider*/
+  background-image: url("../images/Gestion_de_inventarios.png");
+  background-size: cover;
+  background-position: center;
+}
